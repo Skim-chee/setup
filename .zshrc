@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-user=""
+user="skim"
 export ZSH=/Users/$user/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
@@ -107,8 +107,9 @@ alias gch="git checkout"
 alias gc="git commit -m"
 alias gd="git diff"
 alias gs="git status"
-alias gl="git log"
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 alias gp="git push origin"
+alias gpl="git pull origin"
 alias v="nvim"
 
 # Requires python env installed
@@ -131,3 +132,7 @@ export WORKON_HOME=~/Envs
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# Supports fuzzy finding autocompletion using fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
