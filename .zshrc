@@ -106,11 +106,13 @@ alias gb="git branch"
 alias gch="git checkout"
 alias gc="git commit -m"
 alias gd="git diff"
+alias gds="git diff --staged"
 alias gs="git status"
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 alias gp="git push origin"
 alias gpl="git pull origin"
 alias v="nvim"
+alias vimrc="nvim ~/.config/nvim/init.vim"
 
 # Requires python env installed
 # alias env="source env/bin/activate"
@@ -129,6 +131,7 @@ done
 
 export TERM="xterm-256color"
 export WORKON_HOME=~/Envs
+export EDITOR="nvim"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
