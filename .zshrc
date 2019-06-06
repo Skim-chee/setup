@@ -113,7 +113,7 @@ alias gp="git push origin"
 alias gpl="git pull origin"
 alias v="nvim"
 alias vimrc="nvim ~/.config/nvim/init.vim"
-
+alias work="${Default work directory}"
 # Requires python env installed
 # alias env="source env/bin/activate"
 
