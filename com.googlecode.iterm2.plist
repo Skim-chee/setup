@@ -1181,9 +1181,9 @@ BO Default Work:Restore Window Arrangement</string>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>2212 724 731 413 0 0 3840 2137 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>1513 1245 796 486 0 0 3840 2137 </string>
+	<string>2248 1164 918 512 0 0 3840 2137 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1923 7 1914 1055 0 0 3840 2137 </string>
+	<string>1921 0 1915 701 0 0 3840 2137 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1502,7 +1502,7 @@ BO Default Work:Restore Window Arrangement</string>
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Recycle</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -1531,7 +1531,7 @@ BO Default Work:Restore Window Arrangement</string>
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Initial Text</key>
-			<string>work</string>
+			<string>work &amp;&amp; db</string>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
@@ -1945,7 +1945,7 @@ BO Default Work:Restore Window Arrangement</string>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>581463727.04284894</real>
 	<key>OpenArrangementAtStartup</key>
-	<false/>
+	<true/>
 	<key>OpenBookmark</key>
 	<false/>
 	<key>OpenNoWindowsAtStartup</key>
@@ -2002,7 +2002,7 @@ BO Default Work:Restore Window Arrangement</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-06-05T21:57:11Z</date>
+	<date>2019-06-11T15:00:18Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -2037,7 +2037,7 @@ BO Default Work:Restore Window Arrangement</string>
 				<key>Has Toolbelt</key>
 				<false/>
 				<key>Height</key>
-				<real>1051</real>
+				<real>677</real>
 				<key>Hide After Opening</key>
 				<false/>
 				<key>Hiding Toolbelt Should Resize Window</key>
@@ -2375,7 +2375,7 @@ BO Default Work:Restore Window Arrangement</string>
 												<real>0.26666665077209473</real>
 											</dict>
 											<key>Cursor Type</key>
-											<integer>2</integer>
+											<integer>1</integer>
 											<key>Custom Command</key>
 											<string>No</string>
 											<key>Custom Directory</key>
@@ -2402,7 +2402,7 @@ BO Default Work:Restore Window Arrangement</string>
 												<real>0.97647064924240112</real>
 											</dict>
 											<key>Guid</key>
-											<string>E0A26C3E-7673-4FA0-93A9-F67E819464CC</string>
+											<string>F6CE74B9-5327-4096-9EA1-621E210F8635</string>
 											<key>Horizontal Spacing</key>
 											<real>1</real>
 											<key>Idle Code</key>
@@ -2725,9 +2725,7 @@ BO Default Work:Restore Window Arrangement</string>
 											<key>Only The Default BG Color Uses Transparency</key>
 											<true/>
 											<key>Option Key Sends</key>
-											<integer>0</integer>
-											<key>Original Guid</key>
-											<string>F6CE74B9-5327-4096-9EA1-621E210F8635</string>
+											<integer>2</integer>
 											<key>Prompt Before Closing 2</key>
 											<integer>0</integer>
 											<key>Right Option Key Sends</key>
@@ -2817,112 +2815,15 @@ BO Default Work:Restore Window Arrangement</string>
 											<string>/Users/skim</string>
 										</dict>
 										<key>Bookmark Name</key>
-										<string>BO Work Process</string>
+										<string>Work Process</string>
 										<key>Columns</key>
 										<integer>86</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/setup</string>
-											<string>/Users/skim/Code/code</string>
-											<string>/Users/skim/Code/code</string>
-											<string>/Users/skim/Code/code</string>
-											<string>/Users/skim/Code/code</string>
-											<string>/Users/skim/Code/code</string>
-											<string>/Users/skim/Code/code</string>
-											<string>/Users/skim/Code/code</string>
+											<string>/Users/skim</string>
+											<string>/Users/skim</string>
 											<string>/Users/skim/Code/code</string>
 										</array>
 										<key>Environment</key>
@@ -2942,11 +2843,11 @@ BO Default Work:Restore Window Arrangement</string>
 											<string>Command</string>
 										</dict>
 										<key>Rows</key>
-										<integer>40</integer>
+										<integer>25</integer>
 										<key>Session Default Name</key>
 										<string>Work Process</string>
 										<key>Session GUID</key>
-										<string>30DD7A9F-8981-4B57-9917-93DD0231F75D</string>
+										<string>322723DF-1863-4225-8F09-3F91CA868D3C</string>
 										<key>Session Name</key>
 										<string>~/Code/code</string>
 										<key>Session Window Title</key>
@@ -2966,7 +2867,7 @@ BO Default Work:Restore Window Arrangement</string>
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>1029</real>
+										<real>654</real>
 										<key>width</key>
 										<real>956</real>
 										<key>x</key>
@@ -3643,7 +3544,7 @@ BO Default Work:Restore Window Arrangement</string>
 											<key>Only The Default BG Color Uses Transparency</key>
 											<true/>
 											<key>Option Key Sends</key>
-											<integer>0</integer>
+											<integer>2</integer>
 											<key>Prompt Before Closing 2</key>
 											<integer>0</integer>
 											<key>Right Option Key Sends</key>
@@ -3761,11 +3662,11 @@ BO Default Work:Restore Window Arrangement</string>
 											<string>Command</string>
 										</dict>
 										<key>Rows</key>
-										<integer>40</integer>
+										<integer>25</integer>
 										<key>Session Default Name</key>
 										<string>Work Process</string>
 										<key>Session GUID</key>
-										<string>3519E5F3-684E-4CE1-B8CD-0969EB6F64DF</string>
+										<string>05426A11-DDE9-483D-8A21-5922D1B5FEB4</string>
 										<key>Session Name</key>
 										<string>~/Code/code</string>
 										<key>Session Window Title</key>
@@ -3782,7 +3683,7 @@ BO Default Work:Restore Window Arrangement</string>
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>1029</real>
+										<real>654</real>
 										<key>width</key>
 										<real>956</real>
 										<key>x</key>
@@ -3797,7 +3698,7 @@ BO Default Work:Restore Window Arrangement</string>
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>1029</real>
+								<real>654</real>
 								<key>width</key>
 								<real>1913</real>
 								<key>x</key>
@@ -3811,7 +3712,7 @@ BO Default Work:Restore Window Arrangement</string>
 					</dict>
 				</array>
 				<key>TerminalGuid</key>
-				<string>pty-FBB2C3F8-BFEA-43A6-B59F-CD8FF4498FE9</string>
+				<string>pty-FAE0E92D-F727-45D6-8AF7-92796B75BE8E</string>
 				<key>Toolbelt Proportions</key>
 				<dict>
 					<key>proportions</key>
@@ -3827,13 +3728,13 @@ BO Default Work:Restore Window Arrangement</string>
 				<key>Use Transparency</key>
 				<true/>
 				<key>Width</key>
-				<real>1913</real>
+				<real>1915</real>
 				<key>Window Type</key>
 				<integer>0</integer>
 				<key>X Origin</key>
-				<real>1923</real>
+				<real>2</real>
 				<key>Y Origin</key>
-				<real>9</real>
+				<real>8</real>
 			</dict>
 		</array>
 	</dict>

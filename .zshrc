@@ -101,6 +101,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias -g G='| grep -i'
+
 alias ga="git add --all"
 alias gb="git branch"
 alias gch="git checkout"
@@ -111,9 +113,11 @@ alias gs="git status"
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 alias gp="git push origin"
 alias gpl="git pull origin"
+alias h="history | grep"
 alias v="nvim"
 alias vimrc="nvim ~/.config/nvim/init.vim"
-alias work="${Default work directory}"
+alias work=${DEFAULT WORK DIRECTORY}
+
 # Requires python env installed
 # alias env="source env/bin/activate"
 
@@ -139,3 +143,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # Supports fuzzy finding autocompletion using fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
