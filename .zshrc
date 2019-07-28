@@ -118,7 +118,7 @@ alias v="nvim"
 alias vimrc="nvim ~/.config/nvim/init.vim"
 # alias work=${DEFAULT WORK DIRECTORY}
 
-alias personalsite="ssh root@167.71.91.2"
+alias personalsite="ssh root@165.22.219.227"
 
 # Requires python env installed
 # alias env="source env/bin/activate"
