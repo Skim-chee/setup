@@ -116,7 +116,9 @@ alias gpl="git pull origin"
 alias h="history | grep"
 alias v="nvim"
 alias vimrc="nvim ~/.config/nvim/init.vim"
-alias work=${DEFAULT WORK DIRECTORY}
+# alias work=${DEFAULT WORK DIRECTORY}
+
+alias personalsite="ssh root@167.71.91.2"
 
 # Requires python env installed
 # alias env="source env/bin/activate"
