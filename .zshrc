@@ -116,6 +116,7 @@ alias gpl="git pull origin"
 alias h="history | grep"
 alias v="nvim"
 alias vimrc="nvim ~/.config/nvim/init.vim"
+alias zshrc="nvim ~/.zshrc"
 # alias work=${DEFAULT WORK DIRECTORY}
 
 alias personalsite="ssh root@165.22.219.227"
@@ -145,7 +146,3 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # Supports fuzzy finding autocompletion using fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
