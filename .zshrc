@@ -10,6 +10,20 @@ export ZSH=/Users/$user/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="bullet-train"
 
+# Bullettrain theme customizations
+BULLETTRAIN_PROMPT_ORDER=(
+  status
+  dir
+  ruby
+  virtualenv
+  git
+)
+
+BULLETTRAIN_DIR_BG=blue
+BULLETTRAIN_DIR_FG=black
+
+BULLETTRAIN_GIT_BG=green
+
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
