@@ -19,10 +19,10 @@ BULLETTRAIN_PROMPT_ORDER=(
   git
 )
 
-BULLETTRAIN_DIR_BG=blue
+BULLETTRAIN_DIR_BG=yellow
 BULLETTRAIN_DIR_FG=black
 
-BULLETTRAIN_GIT_BG=green
+BULLETTRAIN_GIT_BG=magenta
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random

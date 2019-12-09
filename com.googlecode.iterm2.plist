@@ -1507,22 +1507,26 @@ BO Default Work:Restore Window Arrangement</string>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.77653244905483265</real>
+				<real>0.11213207151740789</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.967498779296875</real>
+				<real>0.95623779296875</real>
 				<key>Red Component</key>
-				<real>0.67869295319542289</real>
+				<real>0.22344130071635959</real>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.7803921568627451</real>
+				<real>0.227508544921875</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.93333333333333335</real>
+				<real>0.92682453989982605</real>
 				<key>Red Component</key>
-				<real>0.97254901960784312</real>
+				<real>1</real>
 			</dict>
 			<key>Ansi 4 Color</key>
 			<dict>
@@ -1539,12 +1543,16 @@ BO Default Work:Restore Window Arrangement</string>
 			</dict>
 			<key>Ansi 5 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.56862747669219971</real>
+				<real>1</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.27450981736183167</real>
+				<real>0.58554115146398544</real>
 				<key>Red Component</key>
-				<real>0.91372549533843994</real>
+				<real>0.56048583984375</real>
 			</dict>
 			<key>Ansi 6 Color</key>
 			<dict>
@@ -2107,7 +2115,7 @@ BO Default Work:Restore Window Arrangement</string>
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1680, 1050}}</string>
 		<key>topLeft</key>
-		<string>{213, 759}</string>
+		<string>{36, 864}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>94CCD919-42E2-4724-88BF-FCD5C438966B</string>
