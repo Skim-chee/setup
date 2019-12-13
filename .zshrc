@@ -79,6 +79,7 @@ DISABLE_UPDATE_PROMPT=true
 plugins=(
 docker
 git
+gitfast
 nvm
 yarn
 z 
@@ -119,7 +120,7 @@ alias -g G='| grep -i'
 
 alias ga="git add --all"
 alias gb="git branch"
-alias gch="git checkout"
+alias gch="git checkout --no-guess"
 alias gc="git commit -m"
 alias gd="git diff"
 alias gds="git diff --staged"
