@@ -82,7 +82,7 @@ git
 gitfast
 nvm
 yarn
-z 
+z
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -140,7 +140,7 @@ alias personalsite="ssh root@165.22.219.227"
 # alias env="source env/bin/activate"
 
 # Inserts strings of scripts you want to insert into here
-SCRIPTS_TO_SOURCE=()
+SCRIPTS_TO_SOURCE=("attentive")
 
 # Will loop through all the above scripts and source them if they are found
 for script in $SCRIPTS_TO_SOURCE; do
@@ -161,3 +161,6 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # Supports fuzzy finding autocompletion using fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+eval "$(nodenv init -)"
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home
