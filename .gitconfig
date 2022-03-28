@@ -1,0 +1,9 @@
+[user]
+	email = kim.seean@gmail.com
+	name = Seean Kim
+[pull]
+	ff = false
+[push]
+	default = current
+[merge]
+	ff = false
