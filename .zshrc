@@ -140,7 +140,7 @@ alias personalsite="ssh root@165.22.219.227"
 # alias env="source env/bin/activate"
 
 # Inserts strings of scripts you want to insert into here
-SCRIPTS_TO_SOURCE=("attentive")
+SCRIPTS_TO_SOURCE=("")
 
 # Will loop through all the above scripts and source them if they are found
 for script in $SCRIPTS_TO_SOURCE; do
